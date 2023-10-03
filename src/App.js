@@ -1,7 +1,10 @@
+import React from 'react';
 import { ChatEngine } from "react-chat-engine";
 import ChatFeed from "./components/ChatFeed";
 import Login from "./components/Login";
 import "./App.css";
+import { ChatEngine } from "react-chat-engine-advanced";
+
 
 const App = () => {
   if (!localStorage.getItem("username")) return <Login />;
